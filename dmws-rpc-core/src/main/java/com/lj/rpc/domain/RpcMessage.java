@@ -17,7 +17,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class RpcMessage {
+public class RpcMessage<T> {
     /**
      * 消息类型{@link MessageType#getValue()}
      */
