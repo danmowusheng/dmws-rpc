@@ -6,7 +6,63 @@
 
     <groupId>org.example</groupId>
     <artifactId>dmws-rpc</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>dmws-rpc-common</module>
+        <module>dmws-rpc-core</module>
+    </modules>
+    <dependencies>
+<!--    <dependencies>-->
+<!--        &lt;!&ndash;netty&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>io.netty</groupId>-->
+<!--            <artifactId>netty-all</artifactId>-->
+<!--            <version>5.0.0.Alpha2</version>-->
+<!--        </dependency>-->
+
+<!--        &lt;!&ndash;protostuff&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>io.protostuff</groupId>-->
+<!--            <artifactId>protostuff-core</artifactId>-->
+<!--            <version>1.7.4</version>-->
+<!--            &lt;!&ndash;此前该scope的修饰为test，这导致我在编写代码时无法引用jar包中的内容，故修改为compile&ndash;&gt;-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>io.protostuff</groupId>-->
+<!--            <artifactId>protostuff-runtime</artifactId>-->
+<!--            <version>1.7.4</version>-->
+<!--        </dependency>-->
+
+
+        <!--lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.18</version>
+            <scope>provided</scope>
+        </dependency>
+<!--        &lt;!&ndash;slf4j日志&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.slf4j</groupId>-->
+<!--            <artifactId>slf4j-api</artifactId>-->
+<!--            <version>1.7.32</version>-->
+<!--        </dependency>-->
+<!--    </dependencies>-->
+    <!--添加阿里云镜像-->
+    <!--失败-->
+
+        <!-- https://mvnrepository.com/artifact/cn.hutool/hutool-all -->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.7.16</version>
+        </dependency>
+    </dependencies>
+
+
 
     <build>
         <plugins>
