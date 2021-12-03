@@ -130,7 +130,7 @@ public class ExtensionLoader<T> {
         return extension;
     }
 
-    public T getAdaptExtension(){
+    public T getAdaptiveExtension(){
         InvocationHandler handler = new AdaptiveInvocationHandler<>(type);
         return (T) Proxy.newProxyInstance(ExtensionLoader.class.getClassLoader(),
                 new Class<?>[]{type}, handler);

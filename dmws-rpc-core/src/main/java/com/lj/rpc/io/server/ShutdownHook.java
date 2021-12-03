@@ -16,7 +16,7 @@ public class ShutdownHook {
     public static void addShutdownHook(){
         log.info("add ShutdownHook for clearAll");
         Runtime.getRuntime().addShutdownHook(new Thread(() ->{
-            RegistryFactory registryFactory = ExtensionLoader.getLoader(RegistryFactory.class).getAdaptExtension();
+            RegistryFactory registryFactory = ExtensionLoader.getLoader(RegistryFactory.class).getAdaptiveExtension();
             /**
              * TODO: 后续需要另外的一些类才能完成
              */
