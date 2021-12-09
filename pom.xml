@@ -11,6 +11,8 @@
     <modules>
         <module>dmws-rpc-common</module>
         <module>dmws-rpc-core</module>
+        <module>demo-client</module>
+        <module>demo-server</module>
     </modules>
     <dependencies>
 <!--    <dependencies>-->
@@ -47,7 +49,7 @@
 <!--        &lt;!&ndash;slf4j日志&ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>org.slf4j</groupId>-->
-<!--            <artifactId>slf4j-api</artifactId>-->
+<!--            <artifactId>slf4j-com.lj.rpc.demo.client.api</artifactId>-->
 <!--            <version>1.7.32</version>-->
 <!--        </dependency>-->
 <!--    </dependencies>-->

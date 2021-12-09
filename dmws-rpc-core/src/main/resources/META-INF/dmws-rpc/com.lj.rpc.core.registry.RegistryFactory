@@ -1,0 +1,2 @@
+zk=com.lj.rpc.core.registry.zk.ZkRegistryFactory
+local=com.lj.rpc.core.registry.local.LocalRegistryFactory

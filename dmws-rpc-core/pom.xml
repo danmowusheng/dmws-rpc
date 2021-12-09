@@ -73,8 +73,14 @@
         <!--slf4j日志-->
         <dependency>
             <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
+            <artifactId>slf4j-com.lj.rpc.demo.client.api</artifactId>
             <version>1.7.32</version>
+        </dependency>
+        <!--用于解决spring目录下的RpcScannerRegistrar中的javax.annotation.Resource的依赖问题-->
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-com.lj.rpc.demo.client.api</artifactId>
+            <version>1.3.1</version>
         </dependency>
     </dependencies>
 

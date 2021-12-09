@@ -1,0 +1,2 @@
+dummy=com.lj.rpc.core.io.compress.DummyCompressor
+gzip=com.lj.rpc.core.io.compress.GzipCompressor
