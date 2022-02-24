@@ -1,0 +1,2 @@
+retry=com.dmws.rpc.core.faulttolerant.RetryInvoker
+fail-fast=com.dmws.rpc.core.faulttolerant.FailFastInvoker

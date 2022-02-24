@@ -1,0 +1,2 @@
+zk=com.dmws.rpc.core.registry.zookeeper.ZooKeeperFactory
+local=com.dmws.rpc.core.registry.local.LocalRegistryFactory

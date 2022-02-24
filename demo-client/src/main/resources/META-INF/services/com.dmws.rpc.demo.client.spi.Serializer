@@ -1,2 +1,2 @@
-JSONSerializer
-ProtostuffSerializer
+com.dmws.rpc.demo.client.spi.JSONSerializer
+com.dmws.rpc.demo.client.spi.ProtostuffSerializer

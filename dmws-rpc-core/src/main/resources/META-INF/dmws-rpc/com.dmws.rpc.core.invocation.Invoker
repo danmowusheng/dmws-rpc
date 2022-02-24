@@ -1,0 +1,1 @@
+netty=com.dmws.rpc.core.invocation.NettyInvoker

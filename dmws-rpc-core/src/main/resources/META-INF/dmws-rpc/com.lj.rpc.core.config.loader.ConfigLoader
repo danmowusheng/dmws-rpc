@@ -1,4 +1,0 @@
-system-property=com.lj.rpc.core.config.loader.SystemPropertyLoader
-properties=com.lj.rpc.core.config.loader.PropertiesConfigLoader
-
-

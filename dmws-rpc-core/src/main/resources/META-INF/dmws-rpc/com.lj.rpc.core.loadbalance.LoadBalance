@@ -1,2 +1,0 @@
-random=com.lj.rpc.core.loadBalance.RandomLoadBalance
-round-robin=com.lj.rpc.core.loadBalance.RoundRobinLoadBalance

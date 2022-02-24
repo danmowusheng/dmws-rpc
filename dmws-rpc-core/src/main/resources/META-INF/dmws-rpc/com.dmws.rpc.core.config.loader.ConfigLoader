@@ -1,0 +1,2 @@
+system-property=com.dmws.rpc.core.config.loader.SystemPropertyLoader
+properties=com.dmws.rpc.core.config.loader.PropertiesConfigLoader

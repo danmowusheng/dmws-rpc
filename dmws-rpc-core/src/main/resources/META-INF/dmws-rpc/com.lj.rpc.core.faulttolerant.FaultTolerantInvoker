@@ -1,2 +1,0 @@
-retry=com.lj.rpc.core.faulttolerant.RetryInvoker
-fail-fast=com.lj.rpc.core.faulttolerant.FailFastInvoker

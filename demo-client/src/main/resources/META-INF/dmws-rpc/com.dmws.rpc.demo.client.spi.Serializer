@@ -1,2 +1,2 @@
-json=JSONSerializer
-protostuff=ProtostuffSerializer
+json=com.dmws.rpc.demo.client.spi.JSONSerializer
+protostuff=com.dmws.rpc.demo.client.spi.ProtostuffSerializer

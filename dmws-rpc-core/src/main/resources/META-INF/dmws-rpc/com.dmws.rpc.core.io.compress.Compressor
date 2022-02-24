@@ -1,0 +1,2 @@
+dummy=com.dmws.rpc.core.io.compress.DummyCompressor
+gzip=com.dmws.rpc.core.io.compress.GzipCompressor

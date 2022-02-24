@@ -1,0 +1,2 @@
+random=com.dmws.rpc.core.loadBalance.RandomLoadBalance
+round-robin=com.dmws.rpc.core.loadBalance.RoundRobinLoadBalance
